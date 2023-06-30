@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: 
+         url('main/ShareTechMono-Regular.woff') format('woff'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+    font-family: 'MyWebFont2';
+    src: 
+         url('Syne_Mono/SyneMono-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+@font-face {
+    font-family: 'MyWebFont3';
+    src: 
+         url('tengri.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+h1{
+    font-size: 50px;
+    font-family: MyWebFont;
+}
+
+body{
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: white;
+    font-family: MyWebFont;
+    
+    
+    
+    
+}
+.tux{
+   width:150px;
+   height:180px;
+   padding-right: 50px;
+}
+.mainbody{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.6);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border: 0.3px solid white;
+}
+mark{
+    color: 
+    #00ffa2;
+    background-color: transparent;
+}
+b{
+    color: #00FFEF;
+}
+
+a{
+    color:  #F652A0;
+    text-decoration: none
+}
+
+.bane{
+    font-family: MyWebFont3;
+    font-size: 40px;
+}
+.baneimg{
+    padding-left: 5px;
+    width: 250px;
+    height:200px;
+}
+
+.navbarlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+    
+}
+.navbarlist2 a{
+    display: block;
+text-align: center;
+padding-right: 20px;
+}
+.navbarlist2{
+    float: left;
+}
+.navbar{
+    float: center;
+    text-align: center;
+}
+a:active{
+ 
+        background-color: 
+        #4C5270;
+      
+}
+.navbarlist a:hover {
+    color: white;
+  }
+
+a:hover{
+    color: white;
+}
+
+
+
+code{
+ font-size: 25px;
+}
