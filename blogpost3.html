@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+    
+
+
+<head>
+
+    <title>divine-architect's website | An update on my life and a few cool projects I made</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="sun1.jpg">
+
+
+</head>
+
+<body>
+<center>
+<h1>
+    An update on my life and a few cool projects I made
+</h1>
+<h3>
+    
+</h3><br>
+
+</center>
+
+<center>
+    <div class="navbar">
+        <ul class="navbarlist">
+            <li class="navbarlist2">
+              <a href='index.html'>/home/</a> 
+            </li>
+    <li class="navbarlist2">
+        <a href='blogs.html'>/blog/</a>
+    </li>
+     
+            <li class="navbarlist2">
+               <a href='projects.html'>/projects/</a> 
+            </li>
+            <li class="navbarlist2">
+                <a href="store.html">/store/</a>
+            </li>
+
+            </ul>
+        </ul>
+    </div>
+    <br><br>
+    </center>
+    <br>
+<div>
+    <img align="right" src="img/krish.png">
+   
+    
+</div>
+
+<div class="mainbody">
+    <mark>Why I couldn't write for so long</mark><br>
+    I was meaning to write about a lot of stuff from a long time but didn't get the time to do so, anyways it's a nice weekend and thought I'd do it.
+    A lot happened over the past 6 months, I made a GitHub organisation with my friend for shitposting my projects (we're building a webring so stay tuned), I also won second place in a hackathon that needed us to build LLM based apps using the Open AI API.
+    Hmmm let's see, oh right and college, I fucking hate that place, this blog will also be a "reasons why I hate going to college" post.
+I also am currently building a portable RPI setup so that I don't have to carry my heavy laptop to college, I anyways just need a computer to watch videos, access websites and such in uni. (No real engineering happens here)
+So I decided to build it, I shall post how I optimised it to fit my needs and the parts I used next weekend (I promise!). My friends and I also entered another Hackathon where we had to build a sematnics based NLP engine for a startup based on Drone patents (kinda weird but okay). We came 4th which was hilarious since all other teams were 3rd/4th years and we were the only first years there.
+
+I also managed to design some software for a national rover building chanllenge, but our uni's robotics team cockblocked us. I'll be open sourcing that once I sort the situation out here.
+I had a math test about matrices and differential calculus, that didn't go well... however my Mechanical Engineering test went really well so +1. I have another test in 10 days I hate it here, funnily, I'll never be looking at the theory they teach here ever again in my life it's annoying and pointless.
+
+<br>
+<br>
+<mark>Cool stuff I did over the past 6 months</mark><br>
+I hate academics so much it's unreal, anyways let's get to the cool part of my life where I designed the software for that rover.
+
+Since I like computer vision so much, I decided to use that to solve most of our problems, our problem statement required us to recognise craters on the arena and gauge their diameters, we were suppsoed to make decisions based on the diameter of an identified crater so I did by applying the Hough Circle Transform {but on ellipses, it's weird tbh but it works}. And i managed to get the diameter of the crater using the unitary method
+we use LIDAR to estimate the distance between the rover and the crater as well, another cool thing I did was build a simple CNN to recognise obstacles, the problem statemnt said there'd be 2 types of obstacles a yellow and green cube. So my friend and I whipped out blender got a script running and trained our model on the generated images.
+
+I also used my webcam to generate a mesh from voxels, basically 3D mapping using vectorised pixels. Fun stuff, I was also working on elevation mapping using stereo cameras but then our uni's robotics club told us to not participate in the competitions since they were going in it.
+
+On the plus side I got a free ticket to join the robotics club, if you can't beat 'em, join 'em!
+
+That was the rover part, I also managed to release a tool for my beloved game Age of Empires 2: Definitive Edition. I used the LLM + Open AI API app i had previously built and fed it data from AoE2 pros like Hera, TheViper, etc and got a nice chatbot which suggests build orders, answers aoe2 related questions, etc.
+You can try it <a href="https://suntzuaoe2.streamlit.app/">here.</a>
+
+I plan on monetising it somehow in the future, it's currently undergoing a waitlist of sorts to get on the Siege Engineers GitHub (an aoe2 centred developers collective).
+
+<br>
+<img align="left" style="width: 600px;" src="img/moon.png">
+
+
+<br>
+<br>
+<--- An image to better understand how I implemented the Hough transform algorithm in my code
+
+<br>
+<br>
+<mark>Raspberry Pi customisation</mark><br>
+Moving on here's the RPI customising part, which is probably the most fun I've had in a while...My attempt at "ricing" it folks.
+
+It's an RPI-4 B I bought back in 2018, I've used it for a lot of things ranging from a Discord bot's server, a NAS and a backup system for my main daily driver linux. And now I plan on making a laptop out of it,
+why you ask? The reason is my main laptop which has a 3070 is freakin' heavy and I dont need to carry around 2.5 kgs every day to school just for it to open a few documents and websites. Hence the RPI, it's tiny and does what I need it to do.
+I'm waiting on a keyboard that'll arrive in a few days and I'll be done with it!
+
+I'm powering it using a Xiaomi power bank, it has a 5inch LED screen with touch screen capabilities. I've bought a 3-D printed case with a fan in it (greatly increases performance in my case.)
+
+Said keyboard also has a trackpad so no need for an additional mouse. All in all it's pretty compact and cute. Once my test is done I'll work on a proper 3D printed case for the whole setup and try customising it a little more.
+If it's successful and I find it comfortable enough I might even daily drive it.
+
+<br>
+<br>
+
+<center>
+<img src="img/rice_1.png">
+</center>
+<br><br>
+<mark>Building an NLP engine in 24 hrs</mark>
+<br>
+My squad and I managed to build a cool NLP engine that was somewhat context aware and could provide you with relevant info and links (based on a scoring system we designed).
+We managed to get the 4th place for this hackathon but that's okay because I, personally learnt a lot and now have a direction regarding LLMs.
+You can see what we tried <a href="https://github.com/Bad-Piggies/hackphasia">here.</a>
+
+
+That ends the cool part of my 6 months, I'll add more guides and blogs soon!
+    </div>
+    </body>
+    </html>
